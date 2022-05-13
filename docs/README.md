@@ -1,4 +1,8 @@
-### Description
+### How to use C4 model with plantUML and docsify.
 
-[Site c4model](https://c4model.com/)
-Interactive C4 Model. I use [docsify](https://docsify.js.org/) and plugin _docsify-puml_
+- [official site c4model](https://c4model.com/)
+- [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML#relationship-types)
+- [PlantUML Icon-Font Sprites](https://github.com/tupadr3/plantuml-icon-font-sprites/tree/master)
+
+
+> This is the interactive example and it shows C4 Model.  I use [Docsify](https://docsify.js.org/) for that. 
