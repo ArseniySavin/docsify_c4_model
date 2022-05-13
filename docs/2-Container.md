@@ -7,7 +7,7 @@
 !include DEVICONS/go.puml
 !include DEVICONS/docker.puml
 
-LAYOUT_TOP_DOWN()
+
 
 Person(user, "User")
 System(app, "Mobile App", "The application interface that the user interacts with contents")
@@ -17,6 +17,7 @@ System_Ext(ext_pay, "Apple | Google \n payment", "Payment services")
 System_Ext(ext_anal, "Apple | Google \n analytics", "Analytics services")
 }
 
+Lay_L(app, ext_sys)
 Rel(user, app, "User", "Hand")
 Rel(app, ext_sys, "Metrics", "Analytics & Payment")
 
@@ -52,6 +53,5 @@ Container_Boundary(pay_sys, "Payment system"){
 
 Rel(ext_sys, pay_sys, "Payment", "https")
 Rel(pay_api, pay_db, "Payment", "-")
-
 @enduml
 ```
